@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".AbecedarioActivity"
-    android:background="@drawable/wallpaperprincipal">
+    android:background="@drawable/globos">
 
     <GridView
         android:id="@+id/activityAbecedario_GridVieLetras"

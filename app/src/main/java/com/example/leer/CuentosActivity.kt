@@ -14,13 +14,10 @@ class CuentosActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_cuentos)
 
-        try {
-            val recycler = findViewById<RecyclerView>(R.id.activityCuentos_recyclerView)
-            recycler.layoutManager = LinearLayoutManager(this)
-            recycler.adapter = CuentosAdapter(ListCuentos.CuentosLis)
-        }catch (ex: Exception){
-            Toast.makeText(this, "Erroe $ex", Toast.LENGTH_LONG).show()
-        }
+        val recycler = findViewById<RecyclerView>(R.id.activityCuentos_recyclerView)
+        recycler.layoutManager = LinearLayoutManager(this)
+        recycler.adapter = CuentosAdapter(ListCuentos.CuentosLis)
+
 
     }
 }

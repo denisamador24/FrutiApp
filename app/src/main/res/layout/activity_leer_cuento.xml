@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".LeerCuentoActivity">
+    tools:context=".LeerCuentoActivity"
+    android:background="@drawable/wallpaperprincipal">
 
     <ImageView
         android:layout_width="match_parent"
@@ -26,6 +27,7 @@
                 android:src="@drawable/img_cuentos"/>
 
             <TextView
+                android:id="@+id/activityLeerCuento_titulo"
                 style="@style/TextMd"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -36,6 +38,7 @@
                 android:text="@string/cuentos" />
 
             <TextView
+                android:id="@+id/activityLeerCuento_cuento"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/long_cuento"

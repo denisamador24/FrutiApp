@@ -21,6 +21,13 @@
         <item name="cardUseCompatPadding">true</item>
     </style>
 
+    <style name="CardLetras" parent="CardViewListItem">
+        <item name="contentPaddingBottom">4dp</item>
+        <item name="contentPaddingTop">4dp</item>
+        <item name="contentPaddingLeft">14dp</item>
+        <item name="contentPaddingRight">14dp</item>
+    </style>
+
     <style name="Theme.Leer.NoActionBar">
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
