@@ -4,14 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".LeerCuentoActivity"
-    android:background="@drawable/globos">
+    tools:context=".LeerCuentoActivity">
 
-    <FrameLayout
+    <ImageView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="@color/white"
-        android:alpha="0.4"/>
+        android:layout_height="match_parent" 
+        android:src="@drawable/globos"
+        android:scaleType="centerCrop"
+        android:alpha="0.7"/>
 
     <ScrollView
         android:layout_width="match_parent"
@@ -42,10 +42,9 @@
             <TextView
                 android:id="@+id/activityLeerCuento_cuento"
                 android:layout_width="match_parent"
-                android:layout_marginTop="4dp"
                 android:layout_height="wrap_content"
                 android:text="@string/large_text"
-                android:layout_marginHorizontal="20sp"
+                android:layout_marginHorizontal="8dp"
                 style="@style/TextMd"
                 android:lineHeight="32sp"/>
         </LinearLayout>
