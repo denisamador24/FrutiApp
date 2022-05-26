@@ -5,7 +5,7 @@
     android:layout_height="wrap_content"
     style="@style/CardViewListItem"
     app:contentPadding="4dp"
-    app:cardBackgroundColor="#Bf5">
+    app:cardBackgroundColor="#FDEB4F">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -36,11 +36,10 @@
 
                 <TextView
                     android:id="@+id/cardListSilaba_A"
-                    style="@style/TextL"
+                    style="@style/TextSilaba"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
-                    android:textSize="32sp"
                     android:text="Sa" />
             </androidx.cardview.widget.CardView>
 
@@ -52,11 +51,10 @@
 
                 <TextView
                     android:id="@+id/cardListSilaba_E"
-                    style="@style/TextL"
+                    style="@style/TextSilaba"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
-                    android:textSize="32sp"
                     android:text="Se" />
             </androidx.cardview.widget.CardView>
 
@@ -68,11 +66,10 @@
 
                 <TextView
                     android:id="@+id/cardListSilaba_I"
-                    style="@style/TextL"
+                    style="@style/TextSilaba"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
-                    android:textSize="32sp"
                     android:text="Si" />
             </androidx.cardview.widget.CardView>
 
@@ -84,11 +81,10 @@
 
                 <TextView
                     android:id="@+id/cardListSilaba_O"
-                    style="@style/TextL"
+                    style="@style/TextSilaba"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
-                    android:textSize="32sp"
                     android:text="So" />
             </androidx.cardview.widget.CardView>
 
@@ -100,11 +96,10 @@
 
                 <TextView
                     android:id="@+id/cardListSilaba_U"
-                    style="@style/TextL"
+                    style="@style/TextSilaba"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
-                    android:textSize="32sp"
                     android:text="Su" />
             </androidx.cardview.widget.CardView>
 

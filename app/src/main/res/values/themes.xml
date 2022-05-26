@@ -22,15 +22,21 @@
     </style>
 
     <style name="CardLetras" parent="CardViewListItem">
-        <item name="contentPaddingBottom">4dp</item>
-        <item name="contentPaddingTop">4dp</item>
-        <item name="contentPaddingLeft">14dp</item>
-        <item name="contentPaddingRight">14dp</item>
+        <item name="contentPaddingBottom">8dp</item>
+        <item name="contentPaddingTop">8dp</item>
+        <item name="contentPaddingLeft">18dp</item>
+        <item name="contentPaddingRight">18dp</item>
     </style>
 
     <style name="Theme.Leer.NoActionBar">
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="TextSilaba">
+        <item name="android:textSize">44sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textStyle">bold</item>
     </style>
 
     <style name="TextL">

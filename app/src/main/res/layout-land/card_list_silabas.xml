@@ -5,19 +5,20 @@
     android:layout_height="wrap_content"
     style="@style/CardViewListItem"
     app:contentPadding="4dp"
-    app:cardBackgroundColor="#Bf5">
-    
+    app:cardBackgroundColor="#FDEB4F">
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
         android:gravity="center_vertical">
-        
+
         <TextView
             android:id="@+id/cardListSilaba_textViewLetra"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Letra S"
+            android:paddingStart="8dp"
             style="@style/TextL"/>
 
         <GridLayout
@@ -29,13 +30,13 @@
 
             <androidx.cardview.widget.CardView
                 android:id="@+id/cardListSilaba_CardA"
-                style="@style/CardViewListItem"
-                android:layout_width="80dp"
-                android:layout_height="50dp">
+                style="@style/CardLetras"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
 
                 <TextView
                     android:id="@+id/cardListSilaba_A"
-                    style="@style/TextL"
+                    style="@style/TextSilaba"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
@@ -44,13 +45,13 @@
 
             <androidx.cardview.widget.CardView
                 android:id="@+id/cardListSilaba_CardE"
-                style="@style/CardViewListItem"
-                android:layout_width="80dp"
-                android:layout_height="50dp">
+                style="@style/CardLetras"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
 
                 <TextView
                     android:id="@+id/cardListSilaba_E"
-                    style="@style/TextL"
+                    style="@style/TextSilaba"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
@@ -59,13 +60,13 @@
 
             <androidx.cardview.widget.CardView
                 android:id="@+id/cardListSilaba_CardI"
-                style="@style/CardViewListItem"
-                android:layout_width="80dp"
-                android:layout_height="50dp">
+                style="@style/CardLetras"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
 
                 <TextView
                     android:id="@+id/cardListSilaba_I"
-                    style="@style/TextL"
+                    style="@style/TextSilaba"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
@@ -74,13 +75,13 @@
 
             <androidx.cardview.widget.CardView
                 android:id="@+id/cardListSilaba_CardO"
-                style="@style/CardViewListItem"
-                android:layout_width="80dp"
-                android:layout_height="50dp">
+                style="@style/CardLetras"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
 
                 <TextView
                     android:id="@+id/cardListSilaba_O"
-                    style="@style/TextL"
+                    style="@style/TextSilaba"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
@@ -89,13 +90,13 @@
 
             <androidx.cardview.widget.CardView
                 android:id="@+id/cardListSilaba_CardU"
-                style="@style/CardViewListItem"
-                android:layout_width="80dp"
-                android:layout_height="50dp">
+                style="@style/CardLetras"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
 
                 <TextView
                     android:id="@+id/cardListSilaba_U"
-                    style="@style/TextL"
+                    style="@style/TextSilaba"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
