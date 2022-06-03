@@ -1,5 +1,6 @@
 package com.example.leer
 
+import android.media.MediaPlayer
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
@@ -23,7 +24,9 @@ class AbecedarioActivity : AppCompatActivity(), AdapterView.OnItemClickListener 
 
     override fun onItemClick(parent: AdapterView<*>?, view: View?, position: Int, id: Long) {
 
-        Toast.makeText(this,"Seleccion de Letra $position", Toast.LENGTH_SHORT ).show()
+        val sound = ListAbecedario.listAbecedarioSound[position]
+        val mediaPlayer: MediaPlayer = MediaPlayer.create(this, sound.sonido)
+        mediaPlayer.start()
     }
 
 }
