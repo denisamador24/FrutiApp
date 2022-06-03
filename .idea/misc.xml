@@ -3,13 +3,14 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Usuario/AndroidStudioProjects/Leer/app/src/main/res/layout-land/activity_leer_cuento.xml" value="0.16" />
         <entry key="..\:/Users/Usuario/AndroidStudioProjects/Leer/app/src/main/res/layout-land/activity_main.xml" value="0.258230012825994" />
         <entry key="..\:/Users/Usuario/AndroidStudioProjects/Leer/app/src/main/res/layout-land/card_list_silabas.xml" value="0.25" />
         <entry key="..\:/Users/Usuario/AndroidStudioProjects/Leer/app/src/main/res/layout-w1240dp/content_scrolling.xml" value="0.148828125" />
         <entry key="..\:/Users/Usuario/AndroidStudioProjects/Leer/app/src/main/res/layout-w936dp/content_scrolling.xml" value="0.153125" />
         <entry key="..\:/Users/Usuario/AndroidStudioProjects/Leer/app/src/main/res/layout/activity_abecedario.xml" value="0.25" />
         <entry key="..\:/Users/Usuario/AndroidStudioProjects/Leer/app/src/main/res/layout/activity_cuentos.xml" value="0.30625" />
-        <entry key="..\:/Users/Usuario/AndroidStudioProjects/Leer/app/src/main/res/layout/activity_leer_cuento.xml" value="0.2" />
+        <entry key="..\:/Users/Usuario/AndroidStudioProjects/Leer/app/src/main/res/layout/activity_leer_cuento.xml" value="0.14" />
         <entry key="..\:/Users/Usuario/AndroidStudioProjects/Leer/app/src/main/res/layout/activity_main.xml" value="0.4288840262582057" />
         <entry key="..\:/Users/Usuario/AndroidStudioProjects/Leer/app/src/main/res/layout/activity_scrolling.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/Usuario/AndroidStudioProjects/Leer/app/src/main/res/layout/activity_silabas.xml" value="0.28515625" />

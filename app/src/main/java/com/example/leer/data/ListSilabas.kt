@@ -15,7 +15,7 @@ class ListSilabas {
                 SonidoSilaba(R.raw.ma, R.raw.me, R.raw.mi, R.raw.mo, R.raw.mu)
                 ),
             Silabas("F",
-                Silaba("Fe", "Fi", "Fi", "Fo", "Fu"),
+                Silaba("Fa", "Fe", "Fi", "Fo", "Fu"),
                 SonidoSilaba(R.raw.fa, R.raw.fe, R.raw.fi, R.raw.fo, R.raw.fu)
                 ),
             Silabas("R",
